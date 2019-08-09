@@ -1,0 +1,207 @@
+BCSymbolMap Version: 2.0
+-[MFTextField initWithFrame:]
+-[MFTextField initWithCoder:]
+-[MFTextField sharedInit]
+-[MFTextField setDefaults]
+-[MFTextField setupTextField]
+-[MFTextField setupUnderline]
+-[MFTextField setupPlaceholderLabel]
+-[MFTextField setupErrorLabel]
+-[MFTextField setupPlaceholderConstraints]
+-[MFTextField setupErrorConstraints]
+-[MFTextField setTextPadding:]
+-[MFTextField updatePlaceholderHorizontalConstraints]
+-[MFTextField setErrorPadding:]
+-[MFTextField updateErrorHorizontalConstraints]
+-[MFTextField setFont:]
+-[MFTextField setAttributedText:]
+-[MFTextField setPlaceholder:]
+-[MFTextField setAttributedPlaceholder:]
+-[MFTextField textRect]
+-[MFTextField setAnimatesPlaceholder:]
+-[MFTextField setDefaultPlaceholderColor:]
+-[MFTextField setPlaceholderColor:]
+-[MFTextField setPlaceholderFont:]
+-[MFTextField defaultPlaceholderFont]
+-[MFTextField setError:animated:]
+-[MFTextField setErrorColor:]
+-[MFTextField setErrorFont:]
+-[MFTextField shouldShowPlaceholder]
+-[MFTextField hasError]
+-[MFTextField placeholderIsHidden]
+-[MFTextField layoutSubviews]
+-[MFTextField layoutUnderlineLayer]
+-[MFTextField layoutPlaceholderLabelAnimated:]
+-[MFTextField layoutErrorLabelAnimated:]
+-[MFTextField updateUnderlineColor]
+-[MFTextField updateUnderlineFrame]
+-[MFTextField defaultFontForPlaceholder]
+-[MFTextField updateDefaultPlaceholderFont]
+-[MFTextField showPlaceholderLabelAnimated:]
+___44-[MFTextField showPlaceholderLabelAnimated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___44-[MFTextField showPlaceholderLabelAnimated:]_block_invoke.283
+___copy_helper_block_.284
+___destroy_helper_block_.285
+-[MFTextField hidePlaceholderLabelAnimated:]
+___44-[MFTextField hidePlaceholderLabelAnimated:]_block_invoke
+___copy_helper_block_.290
+___destroy_helper_block_.291
+___44-[MFTextField hidePlaceholderLabelAnimated:]_block_invoke.293
+___copy_helper_block_.294
+___destroy_helper_block_.295
+-[MFTextField updatePlaceholderText]
+-[MFTextField updatePlaceholderColor]
+-[MFTextField attributedString:withColor:]
+-[MFTextField removePlaceholderLabel]
+-[MFTextField defaultErrorFont]
+-[MFTextField showErrorLabelAnimated:]
+___38-[MFTextField showErrorLabelAnimated:]_block_invoke
+___copy_helper_block_.330
+___destroy_helper_block_.331
+___38-[MFTextField showErrorLabelAnimated:]_block_invoke.333
+___copy_helper_block_.334
+___destroy_helper_block_.335
+-[MFTextField hideErrorLabelAnimated:]
+___38-[MFTextField hideErrorLabelAnimated:]_block_invoke
+___copy_helper_block_.337
+___destroy_helper_block_.338
+___38-[MFTextField hideErrorLabelAnimated:]_block_invoke.340
+___38-[MFTextField hideErrorLabelAnimated:]_block_invoke_2
+___copy_helper_block_.341
+___destroy_helper_block_.342
+___38-[MFTextField hideErrorLabelAnimated:]_block_invoke.344
+___copy_helper_block_.345
+___destroy_helper_block_.346
+___copy_helper_block_.348
+___destroy_helper_block_.349
+-[MFTextField updateErrorLabelText]
+-[MFTextField topPaddingForErrorLabelHidden:]
+-[MFTextField updateErrorLabelPosition]
+-[MFTextField removeErrorLabel]
+-[MFTextField textRectForBounds:]
+-[MFTextField adjustedYPositionForTextRect]
+-[MFTextField editingRectForBounds:]
+-[MFTextField placeholderRectForBounds:]
+-[MFTextField clearButtonRectForBounds:]
+-[MFTextField rightViewRectForBounds:]
+-[MFTextField leftViewRectForBounds:]
+-[MFTextField intrinsicContentSize]
+-[MFTextField prepareForInterfaceBuilder]
+-[MFTextField textPadding]
+-[MFTextField animatesPlaceholder]
+-[MFTextField placeholderAnimatesOnFocus]
+-[MFTextField setPlaceholderAnimatesOnFocus:]
+-[MFTextField defaultPlaceholderColor]
+-[MFTextField placeholderColor]
+-[MFTextField placeholderFont]
+-[MFTextField underlineHeight]
+-[MFTextField setUnderlineHeight:]
+-[MFTextField underlineEditingHeight]
+-[MFTextField setUnderlineEditingHeight:]
+-[MFTextField underlineColor]
+-[MFTextField setUnderlineColor:]
+-[MFTextField error]
+-[MFTextField errorFont]
+-[MFTextField errorColor]
+-[MFTextField errorPadding]
+-[MFTextField setTextRect:]
+-[MFTextField underlineLayer]
+-[MFTextField setUnderlineLayer:]
+-[MFTextField isEmpty]
+-[MFTextField placeholderLabel]
+-[MFTextField setPlaceholderLabel:]
+-[MFTextField placeholderLabelTopConstraint]
+-[MFTextField setPlaceholderLabelTopConstraint:]
+-[MFTextField placeholderLabelHorizontalConstraints]
+-[MFTextField setPlaceholderLabelHorizontalConstraints:]
+-[MFTextField placeholderAttributedString]
+-[MFTextField setPlaceholderAttributedString:]
+-[MFTextField setDefaultPlaceholderFont:]
+-[MFTextField placeholderIsAnimating]
+-[MFTextField setPlaceholderIsAnimating:]
+-[MFTextField errorLabel]
+-[MFTextField setErrorLabel:]
+-[MFTextField errorLabelTopConstraint]
+-[MFTextField setErrorLabelTopConstraint:]
+-[MFTextField errorLabelZeroHeightConstraint]
+-[MFTextField setErrorLabelZeroHeightConstraint:]
+-[MFTextField errorLabelHorizontalConstraints]
+-[MFTextField setErrorLabelHorizontalConstraints:]
+-[MFTextField errorIsAnimating]
+-[MFTextField setErrorIsAnimating:]
+-[MFTextField .cxx_destruct]
+_OBJC_IVAR_$_MFTextField._textPadding
+_OBJC_IVAR_$_MFTextField._errorPadding
+_OBJC_IVAR_$_MFTextField._textRect
+_OBJC_IVAR_$_MFTextField._animatesPlaceholder
+_OBJC_IVAR_$_MFTextField._defaultPlaceholderColor
+_OBJC_IVAR_$_MFTextField._placeholderColor
+_OBJC_IVAR_$_MFTextField._placeholderFont
+_OBJC_IVAR_$_MFTextField._defaultPlaceholderFont
+_OBJC_IVAR_$_MFTextField._error
+_OBJC_IVAR_$_MFTextField._errorColor
+_OBJC_IVAR_$_MFTextField._errorFont
+___block_descriptor_tmp
+___block_descriptor_tmp.287
+___block_descriptor_tmp.292
+___block_descriptor_tmp.296
+___block_descriptor_tmp.332
+___block_descriptor_tmp.336
+___block_descriptor_tmp.339
+___block_descriptor_tmp.343
+___block_descriptor_tmp.347
+___block_descriptor_tmp.350
+_OBJC_IVAR_$_MFTextField._placeholderAnimatesOnFocus
+_OBJC_IVAR_$_MFTextField._underlineHeight
+_OBJC_IVAR_$_MFTextField._underlineEditingHeight
+_OBJC_IVAR_$_MFTextField._underlineColor
+_OBJC_IVAR_$_MFTextField._underlineLayer
+_OBJC_IVAR_$_MFTextField._isEmpty
+_OBJC_IVAR_$_MFTextField._placeholderLabel
+_OBJC_IVAR_$_MFTextField._placeholderLabelTopConstraint
+_OBJC_IVAR_$_MFTextField._placeholderLabelHorizontalConstraints
+_OBJC_IVAR_$_MFTextField._placeholderAttributedString
+_OBJC_IVAR_$_MFTextField._placeholderIsAnimating
+_OBJC_IVAR_$_MFTextField._errorLabel
+_OBJC_IVAR_$_MFTextField._errorLabelTopConstraint
+_OBJC_IVAR_$_MFTextField._errorLabelZeroHeightConstraint
+_OBJC_IVAR_$_MFTextField._errorLabelHorizontalConstraints
+_OBJC_IVAR_$_MFTextField._errorIsAnimating
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/MFTextField.m
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/MFTextField.h
+__destroy_helper_block_
+__copy_helper_block_
+__38-[MFTextField hideErrorLabelAnimated:]_block_invoke.344
+__38-[MFTextField hideErrorLabelAnimated:]_block_invoke_2
+__38-[MFTextField hideErrorLabelAnimated:]_block_invoke.340
+__38-[MFTextField hideErrorLabelAnimated:]_block_invoke
+__38-[MFTextField showErrorLabelAnimated:]_block_invoke.333
+__38-[MFTextField showErrorLabelAnimated:]_block_invoke
+__44-[MFTextField hidePlaceholderLabelAnimated:]_block_invoke.293
+__44-[MFTextField hidePlaceholderLabelAnimated:]_block_invoke
+__44-[MFTextField showPlaceholderLabelAnimated:]_block_invoke.283
+__44-[MFTextField showPlaceholderLabelAnimated:]_block_invoke
++[UIColor(MaterialTextField) colorWithHex:]
++[UIColor(MaterialTextField) mf_defaultPlaceholderGray]
++[UIColor(MaterialTextField) mf_veryDarkGrayColor]
++[UIColor(MaterialTextField) mf_darkGrayColor]
++[UIColor(MaterialTextField) mf_midGrayColor]
++[UIColor(MaterialTextField) mf_lightGrayColor]
++[UIColor(MaterialTextField) mf_greenColor]
++[UIColor(MaterialTextField) mf_redColor]
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/UIColor+MaterialTextField.m
+-[UITextField(MFClearButton) mf_tintClearButton]
+-[UITextField(MFClearButton) mf_clearButton]
+-[UITextField(MFClearButton) mf_tintedClearImage]
+-[UITextField(MFClearButton) mf_setTintedClearImage:]
+_MFTintedClearImage
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/UITextField+MFClearButton.m
+-[UIImage(MFTint) mf_tintedImageWithColor:]
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/UIImage+MFTint.m
+-[UIFont(MaterialTextField) isEqual:]
+/Users/bruna/Workspace/iOS/app-lab-ios/elo-ios/Carthage/Checkouts/MaterialTextField/MaterialTextField/UIFont+MaterialTextField.m
+/Users/bruna/Library/Caches/org.carthage.CarthageKit/DerivedData/10.1_10B61/MaterialTextField/v1.0.1/Build/Intermediates.noindex/ArchiveIntermediates/MaterialTextField/IntermediateBuildFilesPath/MaterialTextField.build/Release-iphoneos/MaterialTextField.build/DerivedSources/MaterialTextField_vers.c

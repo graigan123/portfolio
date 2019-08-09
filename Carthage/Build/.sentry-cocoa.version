@@ -1,0 +1,9 @@
+{
+  "commitish" : "4.3.1",
+  "iOS" : [
+    {
+      "name" : "Sentry",
+      "hash" : "3190077f07bebdd11f038c162399a3d8f29d0948d2ca66a0316c604b8407db9d"
+    }
+  ]
+}

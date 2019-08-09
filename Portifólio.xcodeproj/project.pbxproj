@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F6258D22FE028D00EC3F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6258C22FE028D00EC3F2D /* AppDelegate.swift */; };
+		41F6258F22FE028D00EC3F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6258E22FE028D00EC3F2D /* ViewController.swift */; };
+		41F6259222FE028D00EC3F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F6259022FE028D00EC3F2D /* Main.storyboard */; };
+		41F6259422FE029000EC3F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F6259322FE029000EC3F2D /* Assets.xcassets */; };
+		41F6259722FE029000EC3F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F6259522FE029000EC3F2D /* LaunchScreen.storyboard */; };
+		41F6259F22FE044900EC3F2D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6259E22FE044900EC3F2D /* Dynamic.swift */; };
+		41F625A222FE046E00EC3F2D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 41F625A022FE046E00EC3F2D /* Fonts */; };
+		41F625A322FE046E00EC3F2D /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 41F625A122FE046E00EC3F2D /* pt-BR.lproj */; };
+		41F625A622FE063800EC3F2D /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625A522FE063800EC3F2D /* Sentry.framework */; };
+		41F625A922FE06EB00EC3F2D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625A822FE06EB00EC3F2D /* HockeySDK.framework */; };
+		41F625AB22FE06F100EC3F2D /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625AA22FE06F100EC3F2D /* IQKeyboardManagerSwift.framework */; };
+		41F625AD22FE070100EC3F2D /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625AC22FE070100EC3F2D /* FirebaseAnalytics.framework */; };
+		41F625AF22FE070B00EC3F2D /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625AE22FE070B00EC3F2D /* Firebase.framework */; };
+		41F625B122FE071400EC3F2D /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625B022FE071400EC3F2D /* nanopb.framework */; };
+		41F625B322FE071B00EC3F2D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625B222FE071B00EC3F2D /* SnapKit.framework */; };
+		41F625B522FE072200EC3F2D /* MaterialTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625B422FE072200EC3F2D /* MaterialTextField.framework */; };
+		41F625B722FE072800EC3F2D /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625B622FE072800EC3F2D /* SVProgressHUD.framework */; };
+		41F625B922FE074200EC3F2D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F625B822FE074200EC3F2D /* Alamofire.framework */; };
+		41F6260D22FE0C2300EC3F2D /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6260A22FE0C2300EC3F2D /* ForgotPasswordView.swift */; };
+		41F6260E22FE0C2300EC3F2D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6260B22FE0C2300EC3F2D /* ForgotPasswordViewController.swift */; };
+		41F6260F22FE0C2300EC3F2D /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6260C22FE0C2300EC3F2D /* ForgotPasswordViewModel.swift */; };
+		41F6261122FE0C6400EC3F2D /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 41F6261022FE0C6400EC3F2D /* Helpers */; };
+		41F6261722FE0F2F00EC3F2D /* EloFlexBenefitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261422FE0F2F00EC3F2D /* EloFlexBenefitsViewController.swift */; };
+		41F6261822FE0F2F00EC3F2D /* ChooseBenefitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261522FE0F2F00EC3F2D /* ChooseBenefitsViewController.swift */; };
+		41F6261922FE0F2F00EC3F2D /* EloFlexBenefitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261622FE0F2F00EC3F2D /* EloFlexBenefitsView.swift */; };
+		41F6261F22FE0F6300EC3F2D /* BenefitOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261B22FE0F6300EC3F2D /* BenefitOffersViewController.swift */; };
+		41F6262022FE0F6300EC3F2D /* BenefitOfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261C22FE0F6300EC3F2D /* BenefitOfferTableViewCell.swift */; };
+		41F6262122FE0F6300EC3F2D /* BenefitOffersNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261D22FE0F6300EC3F2D /* BenefitOffersNavigator.swift */; };
+		41F6262222FE0F6300EC3F2D /* BenefitOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6261E22FE0F6300EC3F2D /* BenefitOffersView.swift */; };
+		41F6262822FE0F9300EC3F2D /* OfferAcionedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262422FE0F9300EC3F2D /* OfferAcionedTableViewCell.swift */; };
+		41F6262922FE0F9300EC3F2D /* OfferAcionedDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262522FE0F9300EC3F2D /* OfferAcionedDetailsView.swift */; };
+		41F6262A22FE0F9300EC3F2D /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262622FE0F9300EC3F2D /* OfferDetailView.swift */; };
+		41F6262B22FE0F9300EC3F2D /* OfferDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262722FE0F9300EC3F2D /* OfferDetailViewController.swift */; };
+		41F6263622FE10CB00EC3F2D /* EloFlexSelectCardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262D22FE10CB00EC3F2D /* EloFlexSelectCardHomeViewController.swift */; };
+		41F6263722FE10CB00EC3F2D /* TesteeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262E22FE10CB00EC3F2D /* TesteeeViewController.swift */; };
+		41F6263822FE10CB00EC3F2D /* EloFlexHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6262F22FE10CB00EC3F2D /* EloFlexHomeViewController.swift */; };
+		41F6263A22FE10CB00EC3F2D /* EloFlexBenefitHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6263122FE10CB00EC3F2D /* EloFlexBenefitHomeView.swift */; };
+		41F6263D22FE10CB00EC3F2D /* EloFlexBenefitHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6263422FE10CB00EC3F2D /* EloFlexBenefitHomeTableViewCell.swift */; };
+		41F6263E22FE10CB00EC3F2D /* EloFlexHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6263522FE10CB00EC3F2D /* EloFlexHomeView.swift */; };
+		41F6264322FE10F400EC3F2D /* BenefitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264022FE10F400EC3F2D /* BenefitCollectionViewController.swift */; };
+		41F6264422FE10F400EC3F2D /* BenefitOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264122FE10F400EC3F2D /* BenefitOffersTableViewCell.swift */; };
+		41F6264522FE10F400EC3F2D /* BenefitOfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264222FE10F400EC3F2D /* BenefitOfferCollectionViewCell.swift */; };
+		41F6264922FE111900EC3F2D /* FlexHomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264722FE111900EC3F2D /* FlexHomeDetailsViewController.swift */; };
+		41F6264A22FE111900EC3F2D /* FlexHomeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264822FE111900EC3F2D /* FlexHomeDetailsView.swift */; };
+		41F6264E22FE115000EC3F2D /* FlexHomeDetailsBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264C22FE115000EC3F2D /* FlexHomeDetailsBannerView.swift */; };
+		41F6264F22FE115000EC3F2D /* FlexHomeDetailsBannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6264D22FE115000EC3F2D /* FlexHomeDetailsBannerCollectionCell.swift */; };
+		41F6265322FE11A800EC3F2D /* FlexHomeDetailsLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265122FE11A700EC3F2D /* FlexHomeDetailsLastViewController.swift */; };
+		41F6265422FE11A800EC3F2D /* FlexHomeDetailsLastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265222FE11A700EC3F2D /* FlexHomeDetailsLastView.swift */; };
+		41F6265822FE11D000EC3F2D /* FlexHomeDetailsLastTableViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265622FE11D000EC3F2D /* FlexHomeDetailsLastTableViewFooterCell.swift */; };
+		41F6265922FE11D000EC3F2D /* FlexHomeDetailsLastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265722FE11D000EC3F2D /* FlexHomeDetailsLastTableViewCell.swift */; };
+		41F6265F22FE11F900EC3F2D /* FlexHomeDetailsFooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265B22FE11F900EC3F2D /* FlexHomeDetailsFooterTableViewCell.swift */; };
+		41F6266022FE11F900EC3F2D /* FlexHomeDetailsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265C22FE11F900EC3F2D /* FlexHomeDetailsHeaderCell.swift */; };
+		41F6266122FE11F900EC3F2D /* FlexHomeDetailsFooterChangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265D22FE11F900EC3F2D /* FlexHomeDetailsFooterChangeCell.swift */; };
+		41F6266222FE11F900EC3F2D /* FlexHomeDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6265E22FE11F900EC3F2D /* FlexHomeDetailsTableViewCell.swift */; };
+		41F6266622FE13F600EC3F2D /* FlexHomeDetailsPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266422FE13F500EC3F2D /* FlexHomeDetailsPopUpViewController.swift */; };
+		41F6266722FE13F600EC3F2D /* FlexHomeDetailsPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266522FE13F500EC3F2D /* FlexHomeDetailsPopUpView.swift */; };
+		41F6266D22FE142F00EC3F2D /* FlexHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266922FE142F00EC3F2D /* FlexHomeView.swift */; };
+		41F6266E22FE142F00EC3F2D /* FlexHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266A22FE142F00EC3F2D /* FlexHomeViewController.swift */; };
+		41F6266F22FE142F00EC3F2D /* FlexHomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266B22FE142F00EC3F2D /* FlexHomeNavigator.swift */; };
+		41F6267022FE142F00EC3F2D /* FlexHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6266C22FE142F00EC3F2D /* FlexHomeViewModel.swift */; };
+		41F6267622FE145100EC3F2D /* FlexAnimatedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267222FE145100EC3F2D /* FlexAnimatedCardView.swift */; };
+		41F6267722FE145100EC3F2D /* FlexCardLikeTinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267322FE145100EC3F2D /* FlexCardLikeTinderViewController.swift */; };
+		41F6267822FE145100EC3F2D /* FlexCardAnimatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267422FE145100EC3F2D /* FlexCardAnimatedCell.swift */; };
+		41F6267922FE145100EC3F2D /* FlexCardLikeTinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267522FE145100EC3F2D /* FlexCardLikeTinderView.swift */; };
+		41F6267D22FE147A00EC3F2D /* FlexHomeEloCardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267B22FE147A00EC3F2D /* FlexHomeEloCardCollectionCell.swift */; };
+		41F6267E22FE147A00EC3F2D /* FlexHomeEloTableFooterButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6267C22FE147A00EC3F2D /* FlexHomeEloTableFooterButtonCell.swift */; };
+		41F6268422FE14B000EC3F2D /* SelectCardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6268122FE14B000EC3F2D /* SelectCardCollectionViewController.swift */; };
+		41F6268522FE14B000EC3F2D /* SelectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6268222FE14B000EC3F2D /* SelectCardView.swift */; };
+		41F6268622FE14B000EC3F2D /* SelectCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6268322FE14B000EC3F2D /* SelectCardTableViewCell.swift */; };
+		41F6269322FE17A400EC3F2D /* FlexSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6268E22FE17A400EC3F2D /* FlexSignInViewModel.swift */; };
+		41F6269422FE17A400EC3F2D /* CatSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6268F22FE17A400EC3F2D /* CatSignInService.swift */; };
+		41F6269522FE17A400EC3F2D /* CatSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269022FE17A400EC3F2D /* CatSignInViewController.swift */; };
+		41F6269622FE17A400EC3F2D /* CatSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269122FE17A400EC3F2D /* CatSignInView.swift */; };
+		41F6269722FE17A400EC3F2D /* CatSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269222FE17A400EC3F2D /* CatSignInViewModel.swift */; };
+		41F6269A22FE17DB00EC3F2D /* FlexSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269822FE17DB00EC3F2D /* FlexSignInModel.swift */; };
+		41F6269B22FE17DB00EC3F2D /* FlexSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269922FE17DB00EC3F2D /* FlexSignInService.swift */; };
+		41F626A022FE17F900EC3F2D /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269C22FE17F800EC3F2D /* LoginError.swift */; };
+		41F626A122FE17F900EC3F2D /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269D22FE17F800EC3F2D /* LoginResponse.swift */; };
+		41F626A222FE17F900EC3F2D /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269E22FE17F900EC3F2D /* ProfileModel.swift */; };
+		41F626A322FE17F900EC3F2D /* LoginBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6269F22FE17F900EC3F2D /* LoginBody.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41F6258922FE028D00EC3F2D /* Portifólio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portifólio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F6258C22FE028D00EC3F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41F6258E22FE028D00EC3F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41F6259122FE028D00EC3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41F6259322FE029000EC3F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F6259622FE029000EC3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41F6259822FE029000EC3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F6259E22FE044900EC3F2D /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		41F625A022FE046E00EC3F2D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		41F625A122FE046E00EC3F2D /* pt-BR.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "pt-BR.lproj"; sourceTree = "<group>"; };
+		41F625A522FE063800EC3F2D /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
+		41F625A822FE06EB00EC3F2D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Carthage/Build/iOS/HockeySDK.framework; sourceTree = "<group>"; };
+		41F625AA22FE06F100EC3F2D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		41F625AC22FE070100EC3F2D /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		41F625AE22FE070B00EC3F2D /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
+		41F625B022FE071400EC3F2D /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = Carthage/Build/iOS/nanopb.framework; sourceTree = "<group>"; };
+		41F625B222FE071B00EC3F2D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		41F625B422FE072200EC3F2D /* MaterialTextField.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaterialTextField.framework; path = Carthage/Build/iOS/MaterialTextField.framework; sourceTree = "<group>"; };
+		41F625B622FE072800EC3F2D /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		41F625B822FE074200EC3F2D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		41F6260A22FE0C2300EC3F2D /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = ../../../../../.Trash/SignIn/FluxForgotPassword/ForgotPasswordView.swift; sourceTree = "<group>"; };
+		41F6260B22FE0C2300EC3F2D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = ../../../../../.Trash/SignIn/FluxForgotPassword/ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		41F6260C22FE0C2300EC3F2D /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewModel.swift; path = ../../../../../.Trash/SignIn/FluxForgotPassword/ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		41F6261022FE0C6400EC3F2D /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
+		41F6261422FE0F2F00EC3F2D /* EloFlexBenefitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexBenefitsViewController.swift; path = "Portifólio/Elo Flex/Benefits/EloFlexBenefitsViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261522FE0F2F00EC3F2D /* ChooseBenefitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseBenefitsViewController.swift; path = "Portifólio/Elo Flex/Benefits/ChooseBenefitsViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261622FE0F2F00EC3F2D /* EloFlexBenefitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexBenefitsView.swift; path = "Portifólio/Elo Flex/Benefits/EloFlexBenefitsView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261B22FE0F6300EC3F2D /* BenefitOffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOffersViewController.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/BenefitOffersViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261C22FE0F6300EC3F2D /* BenefitOfferTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOfferTableViewCell.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/BenefitOfferTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261D22FE0F6300EC3F2D /* BenefitOffersNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOffersNavigator.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/BenefitOffersNavigator.swift"; sourceTree = SOURCE_ROOT; };
+		41F6261E22FE0F6300EC3F2D /* BenefitOffersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOffersView.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/BenefitOffersView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262422FE0F9300EC3F2D /* OfferAcionedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferAcionedTableViewCell.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/Offer Detail/OfferAcionedTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262522FE0F9300EC3F2D /* OfferAcionedDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferAcionedDetailsView.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/Offer Detail/OfferAcionedDetailsView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262622FE0F9300EC3F2D /* OfferDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferDetailView.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/Offer Detail/OfferDetailView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262722FE0F9300EC3F2D /* OfferDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferDetailViewController.swift; path = "Portifólio/Elo Flex/Benefits/Benefit Offers/Offer Detail/OfferDetailViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262D22FE10CB00EC3F2D /* EloFlexSelectCardHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexSelectCardHomeViewController.swift; path = "Portifólio/Elo Flex/Home/EloFlexSelectCardHomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262E22FE10CB00EC3F2D /* TesteeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TesteeeViewController.swift; path = "Portifólio/Elo Flex/Home/TesteeeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6262F22FE10CB00EC3F2D /* EloFlexHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexHomeViewController.swift; path = "Portifólio/Elo Flex/Home/EloFlexHomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6263122FE10CB00EC3F2D /* EloFlexBenefitHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexBenefitHomeView.swift; path = "Portifólio/Elo Flex/Home/EloFlexBenefitHomeView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6263422FE10CB00EC3F2D /* EloFlexBenefitHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexBenefitHomeTableViewCell.swift; path = "Portifólio/Elo Flex/Home/EloFlexBenefitHomeTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6263522FE10CB00EC3F2D /* EloFlexHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EloFlexHomeView.swift; path = "Portifólio/Elo Flex/Home/EloFlexHomeView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264022FE10F400EC3F2D /* BenefitCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitCollectionViewController.swift; path = "Portifólio/Elo Flex/Home/Benefit Offers/BenefitCollectionViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264122FE10F400EC3F2D /* BenefitOffersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOffersTableViewCell.swift; path = "Portifólio/Elo Flex/Home/Benefit Offers/BenefitOffersTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264222FE10F400EC3F2D /* BenefitOfferCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenefitOfferCollectionViewCell.swift; path = "Portifólio/Elo Flex/Home/Benefit Offers/BenefitOfferCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264722FE111900EC3F2D /* FlexHomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsViewController.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264822FE111900EC3F2D /* FlexHomeDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsView.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264C22FE115000EC3F2D /* FlexHomeDetailsBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsBannerView.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsBanner/FlexHomeDetailsBannerView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6264D22FE115000EC3F2D /* FlexHomeDetailsBannerCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsBannerCollectionCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsBanner/FlexHomeDetailsBannerCollectionCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265122FE11A700EC3F2D /* FlexHomeDetailsLastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsLastViewController.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsLast/FlexHomeDetailsLastViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265222FE11A700EC3F2D /* FlexHomeDetailsLastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsLastView.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsLast/FlexHomeDetailsLastView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265622FE11D000EC3F2D /* FlexHomeDetailsLastTableViewFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsLastTableViewFooterCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsLast/FlexHomeDetailsLastTableViewCell/FlexHomeDetailsLastTableViewFooterCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265722FE11D000EC3F2D /* FlexHomeDetailsLastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsLastTableViewCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsLast/FlexHomeDetailsLastTableViewCell/FlexHomeDetailsLastTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265B22FE11F900EC3F2D /* FlexHomeDetailsFooterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsFooterTableViewCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsTableViewCell/FlexHomeDetailsFooterTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265C22FE11F900EC3F2D /* FlexHomeDetailsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsHeaderCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsTableViewCell/FlexHomeDetailsHeaderCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265D22FE11F900EC3F2D /* FlexHomeDetailsFooterChangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsFooterChangeCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsTableViewCell/FlexHomeDetailsFooterChangeCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6265E22FE11F900EC3F2D /* FlexHomeDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsTableViewCell.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details/FlexHomeDetailsTableViewCell/FlexHomeDetailsTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266422FE13F500EC3F2D /* FlexHomeDetailsPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsPopUpViewController.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details Pop Up/FlexHomeDetailsPopUpViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266522FE13F500EC3F2D /* FlexHomeDetailsPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeDetailsPopUpView.swift; path = "Portifólio/Elo Flex/Home/Flex Home Details Pop Up/FlexHomeDetailsPopUpView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266922FE142F00EC3F2D /* FlexHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeView.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexHomeView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266A22FE142F00EC3F2D /* FlexHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeViewController.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexHomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266B22FE142F00EC3F2D /* FlexHomeNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeNavigator.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexHomeNavigator.swift"; sourceTree = SOURCE_ROOT; };
+		41F6266C22FE142F00EC3F2D /* FlexHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeViewModel.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexHomeViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267222FE145100EC3F2D /* FlexAnimatedCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexAnimatedCardView.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexCardLikeTinder/FlexAnimatedCardView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267322FE145100EC3F2D /* FlexCardLikeTinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexCardLikeTinderViewController.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexCardLikeTinder/FlexCardLikeTinderViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267422FE145100EC3F2D /* FlexCardAnimatedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexCardAnimatedCell.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexCardLikeTinder/FlexCardAnimatedCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267522FE145100EC3F2D /* FlexCardLikeTinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexCardLikeTinderView.swift; path = "Portifólio/Elo Flex/Home/New Home/FlexCardLikeTinder/FlexCardLikeTinderView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267B22FE147A00EC3F2D /* FlexHomeEloCardCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeEloCardCollectionCell.swift; path = "Portifólio/Elo Flex/Home/New Home/HomeCell/FlexHomeEloCardCollectionCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6267C22FE147A00EC3F2D /* FlexHomeEloTableFooterButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHomeEloTableFooterButtonCell.swift; path = "Portifólio/Elo Flex/Home/New Home/HomeCell/FlexHomeEloTableFooterButtonCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6268122FE14B000EC3F2D /* SelectCardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectCardCollectionViewController.swift; path = "Portifólio/Elo Flex/Home/Select Card/SelectCardCollectionViewController.swift"; sourceTree = SOURCE_ROOT; };
+		41F6268222FE14B000EC3F2D /* SelectCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectCardView.swift; path = "Portifólio/Elo Flex/Home/Select Card/SelectCardView.swift"; sourceTree = SOURCE_ROOT; };
+		41F6268322FE14B000EC3F2D /* SelectCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectCardTableViewCell.swift; path = "Portifólio/Elo Flex/Home/Select Card/SelectCardTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		41F6268E22FE17A400EC3F2D /* FlexSignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSignInViewModel.swift; sourceTree = "<group>"; };
+		41F6268F22FE17A400EC3F2D /* CatSignInService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSignInService.swift; sourceTree = "<group>"; };
+		41F6269022FE17A400EC3F2D /* CatSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSignInViewController.swift; sourceTree = "<group>"; };
+		41F6269122FE17A400EC3F2D /* CatSignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSignInView.swift; sourceTree = "<group>"; };
+		41F6269222FE17A400EC3F2D /* CatSignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSignInViewModel.swift; sourceTree = "<group>"; };
+		41F6269822FE17DB00EC3F2D /* FlexSignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSignInModel.swift; sourceTree = "<group>"; };
+		41F6269922FE17DB00EC3F2D /* FlexSignInService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSignInService.swift; sourceTree = "<group>"; };
+		41F6269C22FE17F800EC3F2D /* LoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		41F6269D22FE17F800EC3F2D /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		41F6269E22FE17F900EC3F2D /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		41F6269F22FE17F900EC3F2D /* LoginBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBody.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F6258622FE028D00EC3F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F625B922FE074200EC3F2D /* Alamofire.framework in Frameworks */,
+				41F625AD22FE070100EC3F2D /* FirebaseAnalytics.framework in Frameworks */,
+				41F625B722FE072800EC3F2D /* SVProgressHUD.framework in Frameworks */,
+				41F625B522FE072200EC3F2D /* MaterialTextField.framework in Frameworks */,
+				41F625B322FE071B00EC3F2D /* SnapKit.framework in Frameworks */,
+				41F625A622FE063800EC3F2D /* Sentry.framework in Frameworks */,
+				41F625AF22FE070B00EC3F2D /* Firebase.framework in Frameworks */,
+				41F625B122FE071400EC3F2D /* nanopb.framework in Frameworks */,
+				41F625A922FE06EB00EC3F2D /* HockeySDK.framework in Frameworks */,
+				41F625AB22FE06F100EC3F2D /* IQKeyboardManagerSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F6258022FE028D00EC3F2D = {
+			isa = PBXGroup;
+			children = (
+				41F6258B22FE028D00EC3F2D /* Portifólio */,
+				41F6258A22FE028D00EC3F2D /* Products */,
+				41F625A422FE063800EC3F2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41F6258A22FE028D00EC3F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F6258922FE028D00EC3F2D /* Portifólio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F6258B22FE028D00EC3F2D /* Portifólio */ = {
+			isa = PBXGroup;
+			children = (
+				41F6258C22FE028D00EC3F2D /* AppDelegate.swift */,
+				41F6258E22FE028D00EC3F2D /* ViewController.swift */,
+				41F6259E22FE044900EC3F2D /* Dynamic.swift */,
+				41F6261222FE0EF400EC3F2D /* Main source */,
+				41F6261022FE0C6400EC3F2D /* Helpers */,
+				41F625BC22FE0BAF00EC3F2D /* Sign In */,
+				41F625A022FE046E00EC3F2D /* Fonts */,
+				41F625A122FE046E00EC3F2D /* pt-BR.lproj */,
+				41F6259022FE028D00EC3F2D /* Main.storyboard */,
+				41F6259322FE029000EC3F2D /* Assets.xcassets */,
+				41F6259522FE029000EC3F2D /* LaunchScreen.storyboard */,
+				41F6259822FE029000EC3F2D /* Info.plist */,
+			);
+			path = "Portifólio";
+			sourceTree = "<group>";
+		};
+		41F625A422FE063800EC3F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F625B822FE074200EC3F2D /* Alamofire.framework */,
+				41F625B622FE072800EC3F2D /* SVProgressHUD.framework */,
+				41F625B422FE072200EC3F2D /* MaterialTextField.framework */,
+				41F625B222FE071B00EC3F2D /* SnapKit.framework */,
+				41F625B022FE071400EC3F2D /* nanopb.framework */,
+				41F625AE22FE070B00EC3F2D /* Firebase.framework */,
+				41F625AC22FE070100EC3F2D /* FirebaseAnalytics.framework */,
+				41F625AA22FE06F100EC3F2D /* IQKeyboardManagerSwift.framework */,
+				41F625A822FE06EB00EC3F2D /* HockeySDK.framework */,
+				41F625A522FE063800EC3F2D /* Sentry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41F625BC22FE0BAF00EC3F2D /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				41F6268722FE16D000EC3F2D /* Sign in */,
+				41F6260922FE0C1200EC3F2D /* FluxForgotPassword */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		41F6260922FE0C1200EC3F2D /* FluxForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				41F6260A22FE0C2300EC3F2D /* ForgotPasswordView.swift */,
+				41F6260B22FE0C2300EC3F2D /* ForgotPasswordViewController.swift */,
+				41F6260C22FE0C2300EC3F2D /* ForgotPasswordViewModel.swift */,
+			);
+			path = FluxForgotPassword;
+			sourceTree = "<group>";
+		};
+		41F6261222FE0EF400EC3F2D /* Main source */ = {
+			isa = PBXGroup;
+			children = (
+				41F6262C22FE109900EC3F2D /* Home */,
+				41F6261322FE0F1900EC3F2D /* Benefits */,
+			);
+			path = "Main source";
+			sourceTree = "<group>";
+		};
+		41F6261322FE0F1900EC3F2D /* Benefits */ = {
+			isa = PBXGroup;
+			children = (
+				41F6261A22FE0F3700EC3F2D /* Benefit Offers */,
+				41F6261522FE0F2F00EC3F2D /* ChooseBenefitsViewController.swift */,
+				41F6261622FE0F2F00EC3F2D /* EloFlexBenefitsView.swift */,
+				41F6261422FE0F2F00EC3F2D /* EloFlexBenefitsViewController.swift */,
+			);
+			path = Benefits;
+			sourceTree = "<group>";
+		};
+		41F6261A22FE0F3700EC3F2D /* Benefit Offers */ = {
+			isa = PBXGroup;
+			children = (
+				41F6262322FE0F7100EC3F2D /* Offer Detail */,
+				41F6261D22FE0F6300EC3F2D /* BenefitOffersNavigator.swift */,
+				41F6261E22FE0F6300EC3F2D /* BenefitOffersView.swift */,
+				41F6261B22FE0F6300EC3F2D /* BenefitOffersViewController.swift */,
+				41F6261C22FE0F6300EC3F2D /* BenefitOfferTableViewCell.swift */,
+			);
+			path = "Benefit Offers";
+			sourceTree = "<group>";
+		};
+		41F6262322FE0F7100EC3F2D /* Offer Detail */ = {
+			isa = PBXGroup;
+			children = (
+				41F6262522FE0F9300EC3F2D /* OfferAcionedDetailsView.swift */,
+				41F6262422FE0F9300EC3F2D /* OfferAcionedTableViewCell.swift */,
+				41F6262622FE0F9300EC3F2D /* OfferDetailView.swift */,
+				41F6262722FE0F9300EC3F2D /* OfferDetailViewController.swift */,
+			);
+			path = "Offer Detail";
+			sourceTree = "<group>";
+		};
+		41F6262C22FE109900EC3F2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				41F6266822FE140700EC3F2D /* First Home */,
+				41F6266322FE13D400EC3F2D /* Flex Home Details Pop Up */,
+				41F6264622FE10F900EC3F2D /* Flex Home Details */,
+				41F6263F22FE10D100EC3F2D /* Benefit Offers */,
+				41F6263422FE10CB00EC3F2D /* EloFlexBenefitHomeTableViewCell.swift */,
+				41F6263122FE10CB00EC3F2D /* EloFlexBenefitHomeView.swift */,
+				41F6263522FE10CB00EC3F2D /* EloFlexHomeView.swift */,
+				41F6262F22FE10CB00EC3F2D /* EloFlexHomeViewController.swift */,
+				41F6262D22FE10CB00EC3F2D /* EloFlexSelectCardHomeViewController.swift */,
+				41F6262E22FE10CB00EC3F2D /* TesteeeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		41F6263F22FE10D100EC3F2D /* Benefit Offers */ = {
+			isa = PBXGroup;
+			children = (
+				41F6264022FE10F400EC3F2D /* BenefitCollectionViewController.swift */,
+				41F6264222FE10F400EC3F2D /* BenefitOfferCollectionViewCell.swift */,
+				41F6264122FE10F400EC3F2D /* BenefitOffersTableViewCell.swift */,
+			);
+			path = "Benefit Offers";
+			sourceTree = "<group>";
+		};
+		41F6264622FE10F900EC3F2D /* Flex Home Details */ = {
+			isa = PBXGroup;
+			children = (
+				41F6265A22FE11D700EC3F2D /* FlexHomeDetailsTableViewCell */,
+				41F6265022FE118000EC3F2D /* FlexHomeDetailsLast */,
+				41F6264B22FE112100EC3F2D /* FlexHomeDetailsBanner */,
+				41F6264822FE111900EC3F2D /* FlexHomeDetailsView.swift */,
+				41F6264722FE111900EC3F2D /* FlexHomeDetailsViewController.swift */,
+			);
+			path = "Flex Home Details";
+			sourceTree = "<group>";
+		};
+		41F6264B22FE112100EC3F2D /* FlexHomeDetailsBanner */ = {
+			isa = PBXGroup;
+			children = (
+				41F6264D22FE115000EC3F2D /* FlexHomeDetailsBannerCollectionCell.swift */,
+				41F6264C22FE115000EC3F2D /* FlexHomeDetailsBannerView.swift */,
+			);
+			path = FlexHomeDetailsBanner;
+			sourceTree = "<group>";
+		};
+		41F6265022FE118000EC3F2D /* FlexHomeDetailsLast */ = {
+			isa = PBXGroup;
+			children = (
+				41F6265522FE11AB00EC3F2D /* FlexHomeDetailsLastTableViewCell */,
+				41F6265222FE11A700EC3F2D /* FlexHomeDetailsLastView.swift */,
+				41F6265122FE11A700EC3F2D /* FlexHomeDetailsLastViewController.swift */,
+			);
+			path = FlexHomeDetailsLast;
+			sourceTree = "<group>";
+		};
+		41F6265522FE11AB00EC3F2D /* FlexHomeDetailsLastTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				41F6265722FE11D000EC3F2D /* FlexHomeDetailsLastTableViewCell.swift */,
+				41F6265622FE11D000EC3F2D /* FlexHomeDetailsLastTableViewFooterCell.swift */,
+			);
+			path = FlexHomeDetailsLastTableViewCell;
+			sourceTree = "<group>";
+		};
+		41F6265A22FE11D700EC3F2D /* FlexHomeDetailsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				41F6265D22FE11F900EC3F2D /* FlexHomeDetailsFooterChangeCell.swift */,
+				41F6265B22FE11F900EC3F2D /* FlexHomeDetailsFooterTableViewCell.swift */,
+				41F6265C22FE11F900EC3F2D /* FlexHomeDetailsHeaderCell.swift */,
+				41F6265E22FE11F900EC3F2D /* FlexHomeDetailsTableViewCell.swift */,
+			);
+			path = FlexHomeDetailsTableViewCell;
+			sourceTree = "<group>";
+		};
+		41F6266322FE13D400EC3F2D /* Flex Home Details Pop Up */ = {
+			isa = PBXGroup;
+			children = (
+				41F6266522FE13F500EC3F2D /* FlexHomeDetailsPopUpView.swift */,
+				41F6266422FE13F500EC3F2D /* FlexHomeDetailsPopUpViewController.swift */,
+			);
+			path = "Flex Home Details Pop Up";
+			sourceTree = "<group>";
+		};
+		41F6266822FE140700EC3F2D /* First Home */ = {
+			isa = PBXGroup;
+			children = (
+				41F6267F22FE148C00EC3F2D /* Select Card */,
+				41F6267A22FE145900EC3F2D /* HomeCell */,
+				41F6267122FE143400EC3F2D /* FlexCardLikeTinder */,
+				41F6266B22FE142F00EC3F2D /* FlexHomeNavigator.swift */,
+				41F6266922FE142F00EC3F2D /* FlexHomeView.swift */,
+				41F6266A22FE142F00EC3F2D /* FlexHomeViewController.swift */,
+				41F6266C22FE142F00EC3F2D /* FlexHomeViewModel.swift */,
+			);
+			path = "First Home";
+			sourceTree = "<group>";
+		};
+		41F6267122FE143400EC3F2D /* FlexCardLikeTinder */ = {
+			isa = PBXGroup;
+			children = (
+				41F6267222FE145100EC3F2D /* FlexAnimatedCardView.swift */,
+				41F6267422FE145100EC3F2D /* FlexCardAnimatedCell.swift */,
+				41F6267522FE145100EC3F2D /* FlexCardLikeTinderView.swift */,
+				41F6267322FE145100EC3F2D /* FlexCardLikeTinderViewController.swift */,
+			);
+			path = FlexCardLikeTinder;
+			sourceTree = "<group>";
+		};
+		41F6267A22FE145900EC3F2D /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				41F6267B22FE147A00EC3F2D /* FlexHomeEloCardCollectionCell.swift */,
+				41F6267C22FE147A00EC3F2D /* FlexHomeEloTableFooterButtonCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		41F6267F22FE148C00EC3F2D /* Select Card */ = {
+			isa = PBXGroup;
+			children = (
+				41F6268122FE14B000EC3F2D /* SelectCardCollectionViewController.swift */,
+				41F6268322FE14B000EC3F2D /* SelectCardTableViewCell.swift */,
+				41F6268222FE14B000EC3F2D /* SelectCardView.swift */,
+			);
+			path = "Select Card";
+			sourceTree = "<group>";
+		};
+		41F6268722FE16D000EC3F2D /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+				41F6268F22FE17A400EC3F2D /* CatSignInService.swift */,
+				41F6269122FE17A400EC3F2D /* CatSignInView.swift */,
+				41F6269022FE17A400EC3F2D /* CatSignInViewController.swift */,
+				41F6269222FE17A400EC3F2D /* CatSignInViewModel.swift */,
+				41F6268E22FE17A400EC3F2D /* FlexSignInViewModel.swift */,
+				41F6268D22FE178500EC3F2D /* Model */,
+				41F6268822FE16DD00EC3F2D /* FlexSign in */,
+			);
+			path = "Sign in";
+			sourceTree = "<group>";
+		};
+		41F6268822FE16DD00EC3F2D /* FlexSign in */ = {
+			isa = PBXGroup;
+			children = (
+				41F6269822FE17DB00EC3F2D /* FlexSignInModel.swift */,
+				41F6269922FE17DB00EC3F2D /* FlexSignInService.swift */,
+			);
+			path = "FlexSign in";
+			sourceTree = "<group>";
+		};
+		41F6268D22FE178500EC3F2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41F6269F22FE17F900EC3F2D /* LoginBody.swift */,
+				41F6269C22FE17F800EC3F2D /* LoginError.swift */,
+				41F6269D22FE17F800EC3F2D /* LoginResponse.swift */,
+				41F6269E22FE17F900EC3F2D /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F6258822FE028D00EC3F2D /* Portifólio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6259B22FE029000EC3F2D /* Build configuration list for PBXNativeTarget "Portifólio" */;
+			buildPhases = (
+				41F6258522FE028D00EC3F2D /* Sources */,
+				41F6258622FE028D00EC3F2D /* Frameworks */,
+				41F6258722FE028D00EC3F2D /* Resources */,
+				41F625A722FE065300EC3F2D /* Cartheage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Portifólio";
+			productName = "Portifólio";
+			productReference = 41F6258922FE028D00EC3F2D /* Portifólio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F6258122FE028D00EC3F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Diego Azevedo Vasconcelos";
+				TargetAttributes = {
+					41F6258822FE028D00EC3F2D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 41F6258422FE028D00EC3F2D /* Build configuration list for PBXProject "Portifólio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F6258022FE028D00EC3F2D;
+			productRefGroup = 41F6258A22FE028D00EC3F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F6258822FE028D00EC3F2D /* Portifólio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F6258722FE028D00EC3F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F6261122FE0C6400EC3F2D /* Helpers in Resources */,
+				41F6259722FE029000EC3F2D /* LaunchScreen.storyboard in Resources */,
+				41F6259422FE029000EC3F2D /* Assets.xcassets in Resources */,
+				41F625A322FE046E00EC3F2D /* pt-BR.lproj in Resources */,
+				41F6259222FE028D00EC3F2D /* Main.storyboard in Resources */,
+				41F625A222FE046E00EC3F2D /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41F625A722FE065300EC3F2D /* Cartheage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Sentry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManager.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OneSignal.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MaterialTextField.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HockeySDK.framework",
+			);
+			name = Cartheage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F6258522FE028D00EC3F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F6261922FE0F2F00EC3F2D /* EloFlexBenefitsView.swift in Sources */,
+				41F6262B22FE0F9300EC3F2D /* OfferDetailViewController.swift in Sources */,
+				41F6261F22FE0F6300EC3F2D /* BenefitOffersViewController.swift in Sources */,
+				41F6263D22FE10CB00EC3F2D /* EloFlexBenefitHomeTableViewCell.swift in Sources */,
+				41F6259F22FE044900EC3F2D /* Dynamic.swift in Sources */,
+				41F6264922FE111900EC3F2D /* FlexHomeDetailsViewController.swift in Sources */,
+				41F6268422FE14B000EC3F2D /* SelectCardCollectionViewController.swift in Sources */,
+				41F6269322FE17A400EC3F2D /* FlexSignInViewModel.swift in Sources */,
+				41F6267722FE145100EC3F2D /* FlexCardLikeTinderViewController.swift in Sources */,
+				41F6260F22FE0C2300EC3F2D /* ForgotPasswordViewModel.swift in Sources */,
+				41F6261822FE0F2F00EC3F2D /* ChooseBenefitsViewController.swift in Sources */,
+				41F6263822FE10CB00EC3F2D /* EloFlexHomeViewController.swift in Sources */,
+				41F6266122FE11F900EC3F2D /* FlexHomeDetailsFooterChangeCell.swift in Sources */,
+				41F6262A22FE0F9300EC3F2D /* OfferDetailView.swift in Sources */,
+				41F6269622FE17A400EC3F2D /* CatSignInView.swift in Sources */,
+				41F6266722FE13F600EC3F2D /* FlexHomeDetailsPopUpView.swift in Sources */,
+				41F6265F22FE11F900EC3F2D /* FlexHomeDetailsFooterTableViewCell.swift in Sources */,
+				41F6258F22FE028D00EC3F2D /* ViewController.swift in Sources */,
+				41F6265822FE11D000EC3F2D /* FlexHomeDetailsLastTableViewFooterCell.swift in Sources */,
+				41F6267E22FE147A00EC3F2D /* FlexHomeEloTableFooterButtonCell.swift in Sources */,
+				41F6262122FE0F6300EC3F2D /* BenefitOffersNavigator.swift in Sources */,
+				41F6264F22FE115000EC3F2D /* FlexHomeDetailsBannerCollectionCell.swift in Sources */,
+				41F6262922FE0F9300EC3F2D /* OfferAcionedDetailsView.swift in Sources */,
+				41F6267822FE145100EC3F2D /* FlexCardAnimatedCell.swift in Sources */,
+				41F6268622FE14B000EC3F2D /* SelectCardTableViewCell.swift in Sources */,
+				41F6269A22FE17DB00EC3F2D /* FlexSignInModel.swift in Sources */,
+				41F626A122FE17F900EC3F2D /* LoginResponse.swift in Sources */,
+				41F6262822FE0F9300EC3F2D /* OfferAcionedTableViewCell.swift in Sources */,
+				41F6267622FE145100EC3F2D /* FlexAnimatedCardView.swift in Sources */,
+				41F6267922FE145100EC3F2D /* FlexCardLikeTinderView.swift in Sources */,
+				41F6265322FE11A800EC3F2D /* FlexHomeDetailsLastViewController.swift in Sources */,
+				41F6266022FE11F900EC3F2D /* FlexHomeDetailsHeaderCell.swift in Sources */,
+				41F626A022FE17F900EC3F2D /* LoginError.swift in Sources */,
+				41F6264522FE10F400EC3F2D /* BenefitOfferCollectionViewCell.swift in Sources */,
+				41F6267D22FE147A00EC3F2D /* FlexHomeEloCardCollectionCell.swift in Sources */,
+				41F6269522FE17A400EC3F2D /* CatSignInViewController.swift in Sources */,
+				41F626A222FE17F900EC3F2D /* ProfileModel.swift in Sources */,
+				41F6269722FE17A400EC3F2D /* CatSignInViewModel.swift in Sources */,
+				41F6260E22FE0C2300EC3F2D /* ForgotPasswordViewController.swift in Sources */,
+				41F6266F22FE142F00EC3F2D /* FlexHomeNavigator.swift in Sources */,
+				41F6266622FE13F600EC3F2D /* FlexHomeDetailsPopUpViewController.swift in Sources */,
+				41F6269B22FE17DB00EC3F2D /* FlexSignInService.swift in Sources */,
+				41F6262022FE0F6300EC3F2D /* BenefitOfferTableViewCell.swift in Sources */,
+				41F6262222FE0F6300EC3F2D /* BenefitOffersView.swift in Sources */,
+				41F6263622FE10CB00EC3F2D /* EloFlexSelectCardHomeViewController.swift in Sources */,
+				41F6264E22FE115000EC3F2D /* FlexHomeDetailsBannerView.swift in Sources */,
+				41F6258D22FE028D00EC3F2D /* AppDelegate.swift in Sources */,
+				41F6266E22FE142F00EC3F2D /* FlexHomeViewController.swift in Sources */,
+				41F6269422FE17A400EC3F2D /* CatSignInService.swift in Sources */,
+				41F626A322FE17F900EC3F2D /* LoginBody.swift in Sources */,
+				41F6266D22FE142F00EC3F2D /* FlexHomeView.swift in Sources */,
+				41F6263A22FE10CB00EC3F2D /* EloFlexBenefitHomeView.swift in Sources */,
+				41F6263E22FE10CB00EC3F2D /* EloFlexHomeView.swift in Sources */,
+				41F6265922FE11D000EC3F2D /* FlexHomeDetailsLastTableViewCell.swift in Sources */,
+				41F6263722FE10CB00EC3F2D /* TesteeeViewController.swift in Sources */,
+				41F6266222FE11F900EC3F2D /* FlexHomeDetailsTableViewCell.swift in Sources */,
+				41F6265422FE11A800EC3F2D /* FlexHomeDetailsLastView.swift in Sources */,
+				41F6268522FE14B000EC3F2D /* SelectCardView.swift in Sources */,
+				41F6261722FE0F2F00EC3F2D /* EloFlexBenefitsViewController.swift in Sources */,
+				41F6264322FE10F400EC3F2D /* BenefitCollectionViewController.swift in Sources */,
+				41F6264A22FE111900EC3F2D /* FlexHomeDetailsView.swift in Sources */,
+				41F6267022FE142F00EC3F2D /* FlexHomeViewModel.swift in Sources */,
+				41F6260D22FE0C2300EC3F2D /* ForgotPasswordView.swift in Sources */,
+				41F6264422FE10F400EC3F2D /* BenefitOffersTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41F6259022FE028D00EC3F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F6259122FE028D00EC3F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41F6259522FE029000EC3F2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F6259622FE029000EC3F2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41F6259922FE029000EC3F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41F6259A22FE029000EC3F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F6259C22FE029000EC3F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGY689J3UY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Portifólio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.treinamento.Portifo-lio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41F6259D22FE029000EC3F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGY689J3UY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Portifólio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.treinamento.Portifo-lio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F6258422FE028D00EC3F2D /* Build configuration list for PBXProject "Portifólio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F6259922FE029000EC3F2D /* Debug */,
+				41F6259A22FE029000EC3F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6259B22FE029000EC3F2D /* Build configuration list for PBXNativeTarget "Portifólio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F6259C22FE029000EC3F2D /* Debug */,
+				41F6259D22FE029000EC3F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41F6258122FE028D00EC3F2D /* Project object */;
+}

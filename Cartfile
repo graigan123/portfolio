@@ -1,0 +1,10 @@
+github "bitstadium/HockeySDK-iOS"
+github "onevcat/Kingfisher"
+github "SnapKit/SnapKit" ~> 4.0.0
+github "Alamofire/Alamofire" ~> 4.7
+github "hackiftekhar/IQKeyboardManager" == 6.0.4
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json"
+github "OneSignal/OneSignal-iOS-SDK"
+github "stephsharp/MaterialTextField"
+github "SVProgressHUD/SVProgressHUD"
+github "getsentry/sentry-cocoa" "4.3.1"

@@ -1,0 +1,9 @@
+{
+  "commitish" : "v1.0.1",
+  "iOS" : [
+    {
+      "name" : "MaterialTextField",
+      "hash" : "44a78642c89b6989e8ddcddfa62c26c2658e627fa91eb25c7883d6cb7fce02d9"
+    }
+  ]
+}

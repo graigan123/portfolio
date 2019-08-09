@@ -1,0 +1,362 @@
+/*
+ Localizable.strings
+ Elo
+
+ Created by Matheus Alves Alano Dias on 14/01/19.
+ Copyright © 2019 4all. All rights reserved.
+ */
+
+"emptyTransferStatement" = "Você ainda não realizou nenhuma transação";
+"cashbackStatementTitle" = "histórico de transferências";
+"date" = "Data";
+"name" = "Nome";
+"email" = "Email";
+"amount" = "Valor";
+"transfer" = "transferir";
+"Transfer" = "Transferir";
+"transferDescription" = "Transfira e receba dinheiro usando apenas um número de celular.";
+// SpendingComboElo
+"transactions" = "transações";
+"transaction" = "transação";
+
+/// PasswordRecovery
+"recoveryPasswordTitle" = "Informe os dados a seguir para recuperar a senha";
+"recoveryPasswordButton" = "Enviar";
+"cpfPlaceholder" = "CPF";
+"informPasswordTitle" = "A senha deve ter de 6 a 12 caracteres.";
+"changePasswordTitle" = "Alterar sua senha";
+"newPasswordTitle" = "Nova senha";
+"repeatPasswordTitle" = "Repita a senha";
+"resendTitle" = "Reenviar o código.";
+"nextTitle" = "Próximo";
+"passwordChanged" = "Sua senha foi alterada com sucesso";
+"codeLength" = "Código deve haver 6 caracteres";
+"smsCodeTitle" = "Código enviado!";
+"smsCodeTopTitle" = "Agora digite o código que você recebeu por SMS no número";
+
+//Home
+"homeBalanceTitle" = "Saldo da carteira";
+"homeCashbackTitle" = "saldo de cashback";
+"homeEarningTitle" = "ganhos";
+"homeSpendingTitle" = "gastos";
+"homeChartTitle" = "ver gráficos de gastos";
+"homeCashbackStatementTitle" = "histórico de\n transferências";
+"homeCardStatementTitle" = "extrato\ncartão";
+"homeTransferTitle" = "transferência";
+"homeComboEloTitle" = "comboElo";
+"homePhoneRechargeTitle" = "recarga de\ncelulcar";
+"homeMobilityRechargeTitle" = "recarga de transporte";
+"homePayTitle" = "PAGAR";
+"homePaymentMethodsTitle" = "formas de\npagamento";
+"goodAfternoon" = "Olá";
+
+//PaymentMethods
+"PaymentMethods" = "Formas de pagamento";
+"addCardTitle" = "Adicionar cartão Elo";
+
+//Add Card
+"addCardDescription" = "Preencha as informações abaixo com os dados do cartão Elo que você deseja adicionar.";
+"cardNumber" = "Número do cartão";
+"cardHolderName" = "Nome do titular";
+"valid" = "Valido até";
+"cvv" = "Código de segurança";
+"add"= "Adicionar";
+
+//Transfer
+"headerTypeTitleAllContacts" = "Ou Selecione um contato";
+"headerTypeTitleRecent" = "Suas últimas transferências";
+"noFundsToTransfer" = "Você não possuí saldo para efetuar transferência";
+"insufficientFundsToTransfer" = "Você não possuí saldo suficiente para transferência";
+"transferNoValueEnter" = "Você deve digitar um valor válido";
+"transferTitle" = "Revise os dados da transferência:";
+"transferValueTitle" = "Valor";
+"tramsferReceiverTitle" = "Destinatário";
+"transferPhoneTitle" = "Telefone";
+
+//Settings
+"Settings" = "Configurações";
+"biometricTitle" = "Identificação biométrica";
+"biometricDesc" = "Ative a biometria e adicione mais segurança para a sua conta e as suas transações.";
+"paymentMethodsTitle" = "Formas de pagamento";
+"paymentMethodsDesc" = "Adicione quantos cartões Elo você quiser para usar como forma de pagamento nas suas transações.";
+"notificationTitle" = "Notificações ativas";
+"notificationDesc" = "Você receberá notificações relacionadas a sua conta e todas as suas transações.";
+"privacyAndUseTerms" = "Termos de uso e privacidade";
+
+//Profile
+"profile" = "Perfil";
+"select" = "Selecione";
+"gallery" = "Galeria";
+"camera" = "Câmera";
+"PersonalData" = "Dados pessoais";
+
+//Statement
+"statementEmptyTableviewMsg" = "Aqui você verá o extrato do seu cartão";
+"statementNavigationTitle" = "Extrato";
+"statementTitleText" = "Pagamento";
+"statementCashBackText" = "Cashback";
+
+//401error
+"401error" = "Seu tempo de sessão expirou por favor efetue login novamente!";
+
+//Validations
+"allFieldsRequired" = "Preencha todos os campos";
+
+//Register
+"invalidCpf" = "Confira o campo CPF";
+"invalidEmail" = "Confira o campo de email";
+"invalidBirthday" = "Preencha uma data válida";
+"invalidPhone" = "Confira o número de celular";
+
+//Password
+"passwordDoesntMatch" = "As senhas não conferem";
+"passwordValidationError" = "Senha não conforme com as regras";
+"passwordMustHave6Digits" = "Senha deve ter mais de 6 caracteres";
+"passwordMustHaveLessThan12Digits" = "Senha deve ter menos de 12 caracteres";
+//CreditCard
+"invalidEloBin" = "Verifique se este é um cartão ELO";
+
+//terms
+"termsOfUserRequired" = "Você deve aceitar os termos e condições e políticas de privacidade";
+
+//Alphabet
+"invalidAlphabet" = "Verifique os campos preenchidos";
+
+// Date
+"invalidDate" = "Informe uma data válida";
+"endDateMinorThanStartDate" = "Data de volta informada maior que data de ida";
+"dateGreaterThanToday" = "Informe uma data maior do que hoje";
+
+//LoginPasswordValidation
+"passwordRequired" = "O campo senha deve ser preenchido!";
+"passwordMissmatch" = "Senha incorreta. Por favor, verifique-as e tente novamente!";
+"errorDefaultString" = "Aconteceu um erro, tente novamente!";
+
+//PasswordRequest
+"cancelKey" = "Cancelar";
+"passwordKey" = "Senha";
+"okKey" = "Ok";
+"logoutKey" = "Sair";
+"biometryAuthenticationMessageKey" = "Autenticação com biometria";
+"authenticationTitleKey" = "Autenticação";
+"inputPasswordKey" = "Insira sua senha para continuar";
+
+//Address
+"TravelChip" = "Chip de viagem";
+"addressText" = "Agora informe \no seu endereço";
+"zipcodeText" = "CEP";
+"placeText" = "Rua";
+"addressNumberText" = "Número";
+"addressComplementText" = "Complemento";
+"cityText" = "Cidade";
+"stateText" = "Estado";
+"editaddresstitle" = "Editar endereço";
+"editaddresssuccess" = "Endereço alterado com sucesso.";
+"neighborhood" = "Bairro";
+"errorNumberWrongFormat" = "Número está no formato errado";
+
+//chip
+"chipSuccessTopLabel" = "Pronto!";
+"chipSuccessTitle" = "Seu pedido foi realizado com sucesso!";
+"chipSuccessSubTitle" = "Você receberá o seu chip no endereço solicitado em até X dias úteis.";
+"chipAlreadyHasChipTopLabel" = "Ops!";
+"chipAlreadyHasChipTitle" = "O cartão que você está usando não é aceito para esta transação";
+"chipAlreadyHasChipSubTitle" = "São aceitos os cartões Elo Nanquim, Elo Empresarial Grafite e Elo Corporativo.";
+"chipUnauthorizedCreditCardTopLabel" = "Ops!";
+"chipUnauthorizedCreditCardTitle" = "Parece que você já solicitou seu chip.";
+"chipUnauthorizedCreditCardSubTitle" = "Se estiver tendo problemas com o recebimento, clique aqui para obter mais informações.";
+"chipInformationButtonTitle" = "voltar para home";
+
+// chip information
+"chipConfirmSendTo" = "Enviar para";
+"chipConfirmAddress" = "Endereço";
+"chipConfirmEditButton" = "Editar Endereço";
+"chipConfirmSendButton" = "Continuar";
+
+"continueRequestChip" = "Continuar";
+"requestChipRgNumber" = "Número do RG";
+"requestChipEndDate" = "Qual a data de volta?";
+"requestChipStartDate" = "Qual a data de ida?";
+"requestChipCountry" = "Qual o país de destino?";
+"requestChip" = "Solicitar chip";
+"rgMustHave11to9Digits" = "O RG deve conter de 11 a 9 dígitos";
+
+"rg" = "RG";
+"destinyCountry" = "País de destino";
+"startDate" = "Data de ida";
+"endDate" = "Data de volta";
+"deliveryAddress" = "Endereço de entrega";
+
+
+//Chip
+"chipRegisterTitle" = "Qual cartão será utilizado para o seu Chip Internacional?";
+"chipRegisterMessage" = "*Somente são aceitos os cartões Elo Nanquim, Elo Empresarial e Elo Corporativo.";
+"confirmText" = "Confirmar";
+"changeText" = "Alterar";
+"chipRequestTitle" = "Soliciar Chip";
+"chipRequestAddressDesc" = "Informe os dados abaixo com o endereço de entrega do seu Chip Viagem.";
+
+//Menu
+"Version" = "Versão";
+
+//Signing
+
+//SignUp
+"signUpFirstName" = "Nome";
+"signUpLastName" = "Sobrenome";
+"signUpBirthday" = "Data de nascimento";
+"signUpCpf" = "CPF";
+"signUpEmail" = "E-mail";
+"signUpPhone" = "Celular";
+"signUpSendButtonTitle" = "Continue";
+"signUpBottomButtonTitle" = "Já tenho uma conta";
+"signUpTitle" = "Criando sua conta";
+"singUpTopLabel" = "Preencha as informações abaixo com os seus dados pessoais para criar a sua nova conta de acesso no App Labs_.";
+
+"signInCpf" = "CPF";
+"signInTopText" = "Entre na sua conta";
+"signInBottomText" = "Ainda não tem conta?";
+"signInPassword" = "Senha";
+"signInLoginButtonTitle" = "Entrar";
+"signInSingUpButtonTitle" = "Criar Conta";
+"signInForgotPasswordButtonTitle" = "Esqueci minha senha";
+
+"signUpPasswordConfirmationText" = "Repita a senha";
+"signUpPasswordConfirmButtonText" = "Finalizar";
+"signUpPasswordTitle" = "Criando sua senha";
+"signUpTermsAndPolicyText" = "Li e concordo com os Termos e Condições.";
+"signUpAgreementDeliveryContentText" = "Aceito receber conteúdos e informações promocionais da Elo";
+
+//Extract
+"Extract" = "Extrato";
+"extractDescription" = "Veja aqui tudo que está acontecendo na sua carteira.";
+
+//Payment
+"PayWithQr" = "Pagar com\ncódigo QR";
+"paymentDescription" = "Pague suas contas apenas com foto do código QR.";
+
+"QRCodeInstructions" = "Posicione a câmera no centro do código QR e aguarde a leitura para efetuar o pagamento.";
+"payingAccount" = "Pagando sua conta";
+"payingEstablishment" = "Local";
+"payingValue" = "Valor";
+"payingInstructions" = "Use o Saldo da Carteira, o Cartão ou os dois para pagar.";
+"wallet" = "Carteira";
+"card" = "Cartão";
+"walletInstructions" = "Escolha o valor da Carteira que deseja utilizar para esse pagamento.";
+"walletAmount" = "Saldo da carteira:";
+"chose" = "Escolher";
+"lightOn" = "Luz ligada";
+"lightOff" = "Luz desligada";
+"pay" = "Pagar";
+"totalToPay" = "Total a pagar";
+"insufficientFunds" = "Saldo insuficiente";
+"informedValueBiggerThanPurchase" = "Valor informado maior que o da compra";
+"selectCard" = "Selecionar cartão";
+"cardSelectorInstructions" = "Selecione um cartão para completar o valor restante de %@ para pagar a sua conta.";
+"currencySymbol" = "R$";
+"moneyPlaceholder" = "R$ 0,00";
+
+"paymentCompletionCategory" = "Categoria";
+"paymentCompletionValue" = "Valor";
+"paymentCompletionMethods" = "Formas de pagamento";
+"paymentCompletionPlace" = "Local";
+"paymentCompletionTime" = "Horário";
+"paymentCompletionAddress" = "Endereço";
+"paymentCompletionQRCodeCategory" = "Pagamento com código QR";
+"paymentCompletionWallet" = "Carteira";
+//Vip
+"VipRoom" = "Sala Vip\n";
+"vipRoomDescriptiopn" = "Conforto e exclusividade em suas viagens.";
+"orderVoucher" = "Emitir vouchers";
+"voucherTypeTitle" = "Para quem você quer emitir o Voucher?";
+"voucherForHost" = "Para mim";
+"voucherForAGuest" = "Para um acompanhante";
+"voucherForHostAndAGuest" = "Para mim e um acompanhante";
+"voucherTravelTitle" = "Informe o país e a data da viagem.";
+"voucherGuestTitle" = "Insira os dados do acompanhante.";
+"voucherCountry" = "Qual o país de destino?";
+"voucherTravelDate" = "Qual a data da viagem?";
+"voucherGuestName" = "Nome";
+"voucherGuestLastname" = "Sobrenome";
+"voucherGuestEmail" = "E-mail";
+"continueOrderVoucher" = "Continuar";
+
+"confirmVoucherDescription" = "Confira as informações abaixo para completar a emissão dos seus Vouchers.";
+"confirmVoucherCountry" = "País";
+"confirmVoucherStartDate" = "Data de ida";
+"confirmVoucherName" = "Nome";
+"confirmVoucherEmail" = "E-mail";
+
+//TravelInsurance
+"TravelInsurance" = "Seguro\nViagem";
+"travelInsuranceDescription" = "Tenha tranquilidade em todas as suas viagens.";
+
+//TravelChip
+"TravelChip" = "Chip de\nViagem";
+"travelChipDescription" = "Tenha tranquilidade em todas as suas viagens.";
+
+//Onboarding
+"extractTitle" = "Extrato";
+"extractOBDescription" = "Veja aqui tudo que está acontecendo na sua carteira. Seu saldo de extrato de cashback e suas transações com todos os detalhes.";
+"transferTitle" = "Transferir";
+"transferOBDescription" = "Agora ficou fácil transferir e receber dinheiro. Com a Elo você só precisará do número do celular de quem você desejar transferir e pronto!";
+"qrPaymentTitle" = "Pagar com código QR";
+"qrPaymentDescription" = "Pague qualquer conta apenas tirando foto de um código QR, encontrado na maioria das máquinas da Cielo.";
+"skipTitle" = "Pular";
+"gotItTitle" = "Ok, Já entendi";
+
+//TravelChip
+"travelChipMainRequestChipTitle" = "Solicitar Chip";
+"travelChipMainActivateChipTitle" = "Ativar Chip";
+"travelChipMainListChipsTitle" = "Meus Chips Viagem";
+"travelChipMainRequestChipSubtitle" = "Conte com internet e minutos para ligações durante sua viagem internacional.";
+"travelChipMainActivateChipsubtitle" = "Veja aqui o passo-a-passo para instalar e configurar seu chip.";
+"travelChipMainListChipssubtitle" = "Aqui você encontra informações sobre todos os Chips que você já solicitou.";
+"travelChipNavigationTitle" = "Chip Viagem";
+"travelChipInstallButtonTitle" = "Como instalar";
+"travelChipconfigurationButtonTitle" = "Como configurar";
+"travelChipSuccessDescription" = "Em breve você receberá um e-mail de vantagens@elo.com.br com as informações necessárias para usufruir do seu benefício.";
+"travelChipSuccessTitle" = "Chip solicitado";
+
+///Activate
+//Install
+"travelChipActivateInstallTurnOff" = "Desligue seu celular para efetuar a troca do chip.";
+"travelChipActivateInstallVerify" = "Verifique o tamanho adequado do chip e destaque.";
+"travelChipActivateInstallRemove" = "Remova seu chip com cuidado e troque pelo chip novo.";
+"travelChipActivateInstallTurnOn" = "Ligue o celular e aguarde 10 minutos para usar o chip.";
+"travelChipActivateNavigationTitle" = "Ativar Chip";
+
+//list
+"chipListRequestDateText" = "Solicitação";
+"chipListExpireDateText" = "Validade";
+"chipListEmptyTableView" = "Você não possui nenhum Chip Viagem.";
+
+//Configuration
+"ChipActivateConfigurationInternational8901Text" = "<p><span style=\"font-family: Museo; font-size: 16px; line-height: normal; color: #5b5c5a;\">Chip Internacional - ICCID 8901</span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">Se o n&uacute;mero ICCID do seu chip internacional come&ccedil;ar com &ldquo;8901&rdquo;, apenas ative o roaming de dados. Caso esteja nos Estados unidos, n&atilde;o &eacute; necess&aacute;rio nenhuma configura&ccedil;&atilde;o.</span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">No celular, v&aacute; em: <strong>Configura&ccedil;&otilde;es</strong> &gt; <strong>Redes M&oacute;veis</strong> &gt; <strong>Dados em Roaming</strong> (ative o bot&atilde;o).</span></p>";
+"ChipActivateConfigurationInternational8944Text" = "<p><span style=\"font-family: Museo; font-size: 16px; line-height: normal; color: #5b5c5a;\">Chip Internacional - ICCID 8944</span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">Se o n&uacute;mero ICCID do seu chip internacional come&ccedil;ar com &ldquo;8901&rdquo;, siga os procedimentos abaixo:</span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">No celular, v&aacute; em: <strong>Configura&ccedil;&otilde;es</strong> &gt; <strong>Redes M&oacute;veis</strong> &gt; <strong>Dados em Roaming</strong> (ative o bot&atilde;o).</span></p>\n<p><span style=\"font-size: 12px;\"><strong><span style=\"font-family: Museo; line-height: normal; color: #5b5c5a;\">1-Na tela inicial do iphone toque em Ajustes</span></strong></span></p>\n<p><span style=\"font-size: 12px;\"><strong><span style=\"font-family: Museo; line-height: normal; color: #5b5c5a;\">2-Selecione a op&ccedil;&atilde;o Celular &gt; ative o bot&atilde;o de Dados Celulares</span></strong></span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\"><strong>3</strong>-Na mesma tela, logo abaixo, selecione <strong>Op&ccedil;&otilde;es de Dados Celulares</strong> e ative o bot&atilde;o <strong>Roaming de Dados</strong></span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">4-Nessa mesma tela, toque em <strong>Rede de Dados Celulares</strong> e preencha os campos xatamente como est&atilde;o descrito abaixo:</span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">Nome do Usu&aacute;rio: <strong>chili</strong> </span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">APN: <strong>chili</strong> </span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\">Demais configura&ccedil;&otilde;es: <strong>N&atilde;o &eacute; necess&aacute;rio fazer nenhuma altera&ccedil;&atilde;o.</strong></span></p>\n<p><span style=\"font-family: Museo; font-size: 12px; line-height: normal; color: #5b5c5a;\"><strong>6</strong>-Pronto! Agora &eacute; s&oacute; usar o seu Chip de Viagem.</span></p>";
+//ChipList
+"TravelChipListTitle" = "Meus Chips Viagem";
+
+// VipRoom Search
+"vipRoomSearchEmptyTableViewText" = "Não encontramos nenhuma sala nessa cidade.";
+"vipRoomSearchTopText" = "Escolha um país e uma cidade";
+"vipRoomSearchCountryPlaceholderText" = "Escolha um país";
+"vipRoomSearchCityPlaceholderText" = "Escolha uma cidade";
+"vipRoomSearchTitle" = "Descobrir salas";
+"vipRoomSearchCellPlaceText" = "Local";
+"vipRoomSearchCellServicesText" = "Serviços";
+"vipRoomSearchCellPriceText" = "Valor";
+"vipRoomValueNotInformedValue" = "Não informado.";
+
+//VipRoom
+"VipRoomAccess" = "Acesso a Sala Vip";
+"EmitVouchersTitle" = "Emitir vouchers";
+"FindRoomsTitle" = "Descobrir salas";
+"MyVouchersTitle" = "Meus vouchers";
+"EmitVouchersSubtitle" = "A cada compra de passagem com cartão Elo, você e um acompanhante ganham dois vouchers de acesso à Sala Vip.";
+"FindRoomsSubtitle" = "Descubra as salas VIP nos principais aeroportos no Brasil e no mundo e confira todas as suas vantagens.";
+"MyVouchersSubtitle" = "Todos os seus vouchers em um só lugar.";
+"attendanceTitle" = "Atendimento";
+"attendanceSubtitle" = "Fale com a gente através do WhatsApp. Estamos disponíveis 24hrs para tirar suas dúvidas.";
+"attendanceButtonTitle" = "Iniciar conversa";
+
